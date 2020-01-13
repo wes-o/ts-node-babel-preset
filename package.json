@@ -1,13 +1,17 @@
 {
-  "name": "ts-node-babel-preset",
+  "name": "@wes-o/ts-node-babel-preset",
   "version": "1.0.1",
   "description": "typescript-node with babel preset",
   "main": "index.js",
+  "bin": {
+    "main":"./src/index.js"
+  },
   "scripts": {
     "version": "git add .",
     "postversion": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {"registry": "https://npm.pkg.github.com/"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wes-o/ts-node-babel-preset.git"
