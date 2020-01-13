@@ -1,0 +1,36 @@
+{
+  "name": "@wes-o/ts-node-babel-preset",
+  "version": "1.0.0",
+  "description": "typescript-node with babel preset",
+  "main": "index.js",
+  "scripts": {
+    "version": "git add .",
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wes-o/ts-node-babel-preset.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "babel",
+    "preset"
+  ],
+  "author": "Wes O",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wes-o/ts-node-babel-preset/issues"
+  },
+  "homepage": "https://github.com/wes-o/ts-node-babel-preset#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.0",
+    "@babel/plugin-transform-typescript": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-typescript": "^7.8.0"
+  }
+}
